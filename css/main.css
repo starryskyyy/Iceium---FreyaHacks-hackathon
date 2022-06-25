@@ -47,26 +47,26 @@ body{
    /* CSS */
 .button-56 {
     font-family: 'Raleway', sans-serif;
-   align-items: center;
-   background-color: #e4ecfc;
-   border: 2px solid #546296;
-   border-radius: 8px;
-   box-sizing: border-box;
-   color: #546296;
-   cursor: pointer;
-   display: flex;
-   font-size: 16px;
-   height: 48px;
-   justify-content: center;
-   line-height: 24px;
-   max-width: 100%;
-   padding: 0 25px;
-   position: relative;
-   text-align: center;
-   text-decoration: none;
-   user-select: none;
-   -webkit-user-select: none;
-   touch-action: manipulation;
+    align-items: center;
+    background-color: #e4ecfc;
+    border: 2px solid #546296;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #546296;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button-56:after {
