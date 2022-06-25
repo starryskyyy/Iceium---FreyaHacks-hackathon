@@ -18,6 +18,7 @@ body{
     justify-content: normal;
     align-items: normal;
     align-content: normal;
+    margin-top: 8rem;
 }
 
 .flex-items:nth-child(1) {
@@ -167,7 +168,6 @@ body{
     height: 35%;
     padding: 30px;
     margin-right: 8rem;
-    margin-top:8rem;
  }
 footer {
     margin-top: auto;
