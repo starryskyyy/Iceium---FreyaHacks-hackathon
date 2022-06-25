@@ -8,6 +8,7 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     color:#546296;
+    height: 1000px;
 }
 
 .flex-container {
@@ -100,4 +101,64 @@ body{
     .button-56 {
         padding: 0 40px;
     }
+}
+
+.navigation {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navigation * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.navigation li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+}
+.navigation a {
+    padding: 0.3em 0;
+    color: rgba(110,124,183,0.73);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navigation a:before,
+.navigation a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.navigation a:before {
+    top: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #ecdff9;
+}
+.navigation a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color:#546296;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.navigation  li:hover:not(:first-child) a,
+.navigation .active a {
+    transform: translateY(-100%);
+}
+.active{
+    color:#546296;
 }
