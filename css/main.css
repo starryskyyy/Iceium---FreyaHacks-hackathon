@@ -1,0 +1,103 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(205deg, #ffffff 0%, rgba(214,243,255,1) 62%, #f3d6f7 100%);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color:#546296;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding: 150px;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 5rem;
+    font-size:150%;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+
+   /* CSS */
+.button-56 {
+    font-family: 'Raleway', sans-serif;
+   align-items: center;
+   background-color: #ecdffb;
+   border: 2px solid #546296;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #546296;
+   cursor: pointer;
+   display: flex;
+   font-size: 16px;
+   height: 48px;
+   justify-content: center;
+   line-height: 24px;
+   max-width: 100%;
+   padding: 0 25px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.button-56:after {
+    background-color: #546296;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #ecdffb;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
