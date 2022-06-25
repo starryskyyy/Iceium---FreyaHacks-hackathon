@@ -4,6 +4,15 @@ Each page's scripts are separated by: ================================
 
 /* Pinboard includes docs and misc https://pinboard.opera.com/view/06501e26-cfcb-4eb8-8db6-957a2f2d1dab  */
 
+const getShops = () => {
+  fetch('http://')
+  .then(resp => resp.json())
+  .then((shopData) => {
+      shopData.forEach((shop) => renderShop(shop))
+  })
+}
+
+
 const renderShop = (shop) => {
   //create span, add class, id, and draggable attribute
   //this can be reused in a react component along with other UI elements/behaviors
