@@ -56,7 +56,7 @@ const renderShop = (shop) => {
 import { client as _client } from 'yelp-fusion'
 
 // Place holder for Yelp Fusion's key
-const apiKey = 'MG_mNqNJ2ghKp_Uwlr_HzVOI8eB9KTm2VdjNjgDCVX_TMicJcqS9EcF1FXR4we_fGh2Dbfnkt6-Cl9cY7uPbzflvHlbrK4a0RRTbMHJiRa79mravQjbkKHjdsl63YnYx';
+const apiKey = "MG_mNqNJ2ghKp_Uwlr_HzVOI8eB9KTm2VdjNjgDCVX_TMicJcqS9EcF1FXR4we_fGh2Dbfnkt6-Cl9cY7uPbzflvHlbrK4a0RRTbMHJiRa79mravQjbkKHjdsl63YnYx";
 
 const searchRequest = {
   "term": 'icecream',
