@@ -1,8 +1,8 @@
-/*
+/*/!*
 Each page's scripts and their custom-methods/functions are separated by comments
 Pinboard includes docs and misc ctl+click or cpy+pst =  https =//pinboard.opera.com/view/06501e26-cfcb-4eb8-8db6-957a2f2d1dab  
-*/
-/* SHOPS CONTAINER */
+*!/
+/!* SHOPS CONTAINER *!/
 
 const containers = document.querySelectorAll('.container')
 
@@ -74,10 +74,12 @@ client.search(searchRequest).then(response => {
 });
 
 
-/* Setup the script to run now */
+/!* Setup the script to run now *!/
 function init() {
   getShops();
   shopsContainer();
 }
 
-init();
+init();*/
+
+
