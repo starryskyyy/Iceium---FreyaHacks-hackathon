@@ -12,7 +12,7 @@ With rising climate change and hotter weather throughout the world this summer, 
 |# Ice Castle  ( similar )  | ![#dcf4fc ](https://cdn.discordapp.com/attachments/315879205818597377/990614255248220231/Screenshot_6.jpg) #dcf4fc |
 |# Lavender  ( similar )  | ![#e8e0f8](https://cdn.discordapp.com/attachments/315879205818597377/990614255248220231/Screenshot_6.jpg) #e8e0f8 |
 ## Demo
-![website]([https://cdn.discordapp.com/attachments/315879205818597377/990614350467313674/iceium.gif](https://cdn.discordapp.com/attachments/315879205818597377/990614350467313674/iceium.gif))
+![website](https://cdn.discordapp.com/attachments/315879205818597377/990614350467313674/iceium.gif)
 
 
 ## Inspiration
