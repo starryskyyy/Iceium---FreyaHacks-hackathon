@@ -12,7 +12,7 @@ With rising climate change and hotter weather throughout the world this summer, 
 |# Ice Castle  ( similar )  | ![#dcf4fc ](https://cdn.discordapp.com/attachments/315879205818597377/990614255248220231/Screenshot_6.jpg) #dcf4fc |
 |# Lavender  ( similar )  | ![#e8e0f8](https://cdn.discordapp.com/attachments/315879205818597377/990614255248220231/Screenshot_6.jpg) #e8e0f8 |
 ## Demo
-![gif demo](https://cdn.discordapp.com/attachments/315879205818597377/990614350467313674/iceium.gif)
+![demo gif](https://cdn.discordapp.com/attachments/315879205818597377/990614350467313674/iceium.gif)
 
 
 ## Inspiration
@@ -34,8 +34,8 @@ In creating this project, we learned how to use HTML and CSS together to create 
 Our team is looking to expanding the functions of this website potentially allowing users to have more options within the website to find their favorite ice cream shops.
 ## Authors
 
-- [@zhihahnsee]([https://github.com/zhihahnsee)
-- [@starryskyyy]([https://github.com/starryskyyy) 
-- [@Jkuffler (Jason Kuffler)]([https://github.com/Jkuffler)
+- [@zhihahnsee](https://github.com/zhihahnsee)
+- [@starryskyyy](https://github.com/starryskyyy) 
+- [@Jkuffler (Jason Kuffler)](https://github.com/Jkuffler)
 
 
