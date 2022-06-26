@@ -6,6 +6,7 @@ Pinboard includes docs and misc ctl+click or cpy+pst =  https =//pinboard.opera.
 
 const containers = document.querySelectorAll('.container')
 
+
 //make each shop container clickable
 const shopsContainer = () => {
     containers.forEach(container => {
@@ -21,7 +22,7 @@ const shopsContainer = () => {
 
 //call to API and bring in the json as JS objeect and run renderShop
 const getShops = () => {
-  fetch(`https://api.yelp.com/v3/businesses/search${params}`)
+  fetch(`https://api.yelp.com/v3/businesses/search${params}${gooKey}`) //double check syntax
   .then(resp => resp.json())
   .then((shopData) => {
       shopData.forEach((shop) => renderShop(shop))
@@ -56,7 +57,7 @@ const renderShop = (shop) => {
 import { client as _client } from 'yelp-fusion'
 
 // Place holder for Yelp Fusion's key
-const apiKey = "MG_mNqNJ2ghKp_Uwlr_HzVOI8eB9KTm2VdjNjgDCVX_TMicJcqS9EcF1FXR4we_fGh2Dbfnkt6-Cl9cY7uPbzflvHlbrK4a0RRTbMHJiRa79mravQjbkKHjdsl63YnYx";
+
 
 const searchRequest = {
   "term": 'icecream',
