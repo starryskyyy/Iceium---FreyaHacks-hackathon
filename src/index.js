@@ -21,15 +21,15 @@ const shopsContainer = () => {
 
 //call to API and bring in the json as JS objeect and run renderShop
 const getShops = () => {
-  fetch(`https://api.yelp.com/v3/businesses/${id}`)
+  fetch(`https://api.yelp.com/v3/businesses/search${params}`)
   .then(resp => resp.json())
   .then((shopData) => {
       shopData.forEach((shop) => renderShop(shop))
     }
   )
 };
-
-  //lines 16-29 can be reused in a react component along with virtually all UI elements/behaviors
+//create span, add class, id
+//renderShop can be reused in a react component along with virtually all UI elements/behaviors
 const renderShop = (shop) => {
   const shopContainer = document.querySelector('#shop')
   const shopSpan = document.createElement('span') 
