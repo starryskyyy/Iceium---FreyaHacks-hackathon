@@ -59,8 +59,8 @@ import { client as _client } from 'yelp-fusion'
 const apiKey = 'MG_mNqNJ2ghKp_Uwlr_HzVOI8eB9KTm2VdjNjgDCVX_TMicJcqS9EcF1FXR4we_fGh2Dbfnkt6-Cl9cY7uPbzflvHlbrK4a0RRTbMHJiRa79mravQjbkKHjdsl63YnYx';
 
 const searchRequest = {
-  "term": 'Four Barrel Coffee',
-  "location": 'san francisco, ca'
+  "term": 'icecream',
+  "location": 'city , state'
 };
 
 const client = _client(apiKey);
