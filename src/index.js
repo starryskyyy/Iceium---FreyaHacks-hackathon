@@ -22,7 +22,7 @@ const shopsContainer = () => {
 
 //call to API and bring in the json as JS objeect and run renderShop
 const getShops = () => {
-  fetch(`https://api.yelp.com/v3/businesses/search${params}${gooKey}`) //double check syntax
+  fetch(`https://api.yelp.com/v3/businesses/search${params}/${gooKey}`) //snytax?
   .then(resp => resp.json())
   .then((shopData) => {
       shopData.forEach((shop) => renderShop(shop))
@@ -57,7 +57,6 @@ const renderShop = (shop) => {
 import { client as _client } from 'yelp-fusion'
 
 // Place holder for Yelp Fusion's key
-
 
 const searchRequest = {
   "term": 'icecream',
