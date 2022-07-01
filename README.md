@@ -1,5 +1,6 @@
 ﻿# Iceium :ice_cream:
 With rising climate change and hotter weather throughout the world this summer, staying cool is more important than ever to prevent potential heat stroke and have a good time out doors. This summer 2022 in a study of 246 U.S. locations, 53% of those locations saw a rise in their average temperature by 2°F or more. Our team was motivated to find a positive and fun solution to combatting the rising heat levels through an interactive platform, accessible to all users.
+
 https://starryskyyy.github.io/Iceium---FreyaHacks-hackathon/
 
 ## Color Reference 	:art:
